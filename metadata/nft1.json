@@ -1,0 +1,9 @@
+{
+  "name": "UMYNFT #1",
+  "description": "NFT Sertifikat Proyek Blockchain Mahasiswa - UMY",
+  "image": "ipfs://bafkreierq4q7zqy464nu5lwy2h5sydd67ugvtigczdou5rydj4danbh6hu",
+  "attributes": [
+    { "trait_type": "Kelas", "value": "Blockchain" },
+    { "trait_type": "Year", "value": "2025" }
+  ]
+}
