@@ -22,14 +22,23 @@
 <div id="erc20Status"></div>
 
 <hr>
-
-<h3>UMYNFT (ERC-721)</h3>
-<div id="erc721Status"></div>
-<div id="nftList"></div>
+<h3>UMYNFT (Actions)</h3>
+<input id="listTokenId" placeholder="Token ID">
+<input id="listPrice" placeholder="Price (ETH)">
+<button id="btnApprove">Approve Marketplace</button>
+<button id="btnList">List NFT</button>
+<div id="marketActionStatus"></div>
 
 <hr>
 
 <div id="txList"></div>
+
+<hr>
+
+<h3>Marketplace Listings</h3>
+<div id="marketplaceStatus"></div>
+<div id="marketplaceList"></div>
+<hr>
 
 <!-- 🔴 PENTING: ethers HARUS PALING ATAS -->
 <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
