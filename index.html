@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <title>UMY Token Management DApp</title>
+</head>
+<body>
+
+<h1>UMY Token Management DApp</h1>
+
+<button id="btnConnect">Connect Wallet</button>
+<div id="account"></div>
+<div id="network"></div>
+
+<hr>
+
+<h3>UMYCoin (ERC-20)</h3>
+<div>Saldo: <span id="erc20Balance">-</span></div>
+<input id="transferTo" placeholder="Alamat tujuan">
+<input id="transferAmount" placeholder="Jumlah">
+<button id="btnTransfer">Transfer</button>
+<div id="erc20Status"></div>
+
+<hr>
+
+<h3>UMYNFT (ERC-721)</h3>
+<div id="erc721Status"></div>
+<div id="nftList"></div>
+
+<hr>
+
+<div id="txList"></div>
+
+<!-- 🔴 PENTING: ethers HARUS PALING ATAS -->
+<script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+
+<!-- config dulu -->
+<script src="./config.js"></script>
+
+<!-- baru app -->
+<script src="./app.js"></script>
+
+</body>
+</html>
